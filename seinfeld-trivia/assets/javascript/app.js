@@ -8,7 +8,7 @@
     counter = 20;
     document.querySelector("#timer").innerHTML = "Time: " + counter;
     console.log('workin');
-    setInterval(timeIt, 500);
+    setInterval(timeIt, 1000);
 
     
     function timeIt() {
@@ -86,7 +86,7 @@ var questions = [
 var image =[
     "assets/images/green-tick.png",
     "assets/images/wrong.jpg",
-    "assets/images/out-of-time-.png"
+    "assets/images/time.png"
 
 ]
 
