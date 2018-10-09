@@ -61,7 +61,7 @@ label {
 /*text box for contact page*/
 textarea {
     float: left;
-    width: 800px;
+    width: 80%;
     height: 200px;
     color: #777777;
 }
@@ -73,6 +73,15 @@ button {
     margin-top: 10px;
     font-size: 17px;
     padding: 5px 20px 5px 20px;
+}
+/*  Basic aligner classes */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.around {
+    justify-content: space-between;
 }
 /*title name settings*/
 .Name {
@@ -130,7 +139,6 @@ button {
 .list {
     font-size: 15px;
 }
-
 /*settings for content box on index page*/
 .contentbox {
     margin-top: 30px;
@@ -232,6 +240,14 @@ button {
     text-align: left;
     color: #777777;
 }
+.repo-link {
+    position: absolute;
+    color: black;
+    background-color: cadetblue;
+    padding: 1px;
+    margin: 1px;
+}
+
 /*settings for bottom box*/
 footer {
     width: 100%;
