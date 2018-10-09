@@ -60,6 +60,10 @@ $("#add-Train").on('click', function(event) {
   //Subtract the first train time back a year to make sure it's before current time.
   var firstTrianConversion = moment().subtract(firstTrain, "minutes");
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3ff863c792e645432a092a6023dc64aa3d1276c
   // % = Modulus (Remainder)
   var remainder = firstTrianConversion % frequency;
 
