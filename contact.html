@@ -1,55 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <title>Contact</title>
-        <meta charset="UTF-8">
-        <!--Link to CSS file-->
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <!--Link to CSS file-->
     <link rel="stylesheet" href="assests\css\style.css">
-    </head>
+</head>
 
-    
-        <header>
-            <!--Setup for nav bar-->
-            <div class="navbar">
 
-                <div class="Name_con">
+<header>
+    <!--Setup for nav bar-->
+    <div class="navbar">
 
-                <h1>Kyle Foster</h1>
+        <div class="Name_con">
 
+            <h1>Kyle Foster</h1>
+
+        </div>
+
+        <!--Settings for nav position-->
+        <div class="con_nav">
+            <nav>
+                <!--nav list items-->
+                <ul>
+
+                    <li class="list"><a href="index.html" target="blank">About</a></li>
+                    <li class="pipe">|</li>
+                    <li class="list"><a href="portfolio.html" target="blank">Portfolio</a></li>
+                    <li class="pipe">|</li>
+                    <li class="list"><a href="contact.html" target="blank">Contact</a></li>
+
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!--Setup for gray background-->
+
+<body>
+
+    <!--Setup for content box-->
+    <div class="contentbox_con">
+
+        <h1 class="con">Contact</h1>
+
+        <div class="con_info around">
+
+            <form action="mailto:foscat4o1k@outlook.com" enctype="text/plain" method="post" id="email-form">
+
+                <div class="center">
+                    <label for="input-name">Your name</label>
+                    <input type="text" placeholder="John Doe" name="name" id="input-name">
+                </div>
+
+                <div class="center">
+                    <label for="email-input">Your email</label>
+                    <input type="email" placeholder="example@email.com" id="email-input">
+                </div>
+
+                <div class="center">
+                    <textarea placeholder="     This area is still being worked on. Please click the 'Email Me' button below. 
+                    This will route you to emailing me directly."></textarea>
+                </div>
+
+                <div class="center">
+                    <input type="submit" value="Email Me">
                 </div>
                 
-                <!--Settings for nav position-->
-                <div class="con_nav">
-                <nav>
-                       <!--nav list items-->
-                    <ul>
-                        
-                        <li class="list"><a href="index.html" target="blank">About</a></li>
-                        <li class="pipe">|</li>
-                        <li class="list"><a href="portfolio.html" target="blank">Portfolio</a></li>
-                        <li class="pipe">|</li>
-                        <li class="list"><a href="contact.html" target="blank">Contact</a></li>
-                        
+            </form>
 
-                    </ul>
-
-                </nav>
-
-                </div>
-
-            </div>
-
-        </header>
-
-<!--Setup for gray background--> 
-<body>
-        <center>
-        <!--Setup for content box-->
-        <div class="contentbox_con">
-
-            <h1 class="con">Contact</h1>
-
-            <div class="con_info">
+        </div>
+        <!-- <div class="con_info">
 
              <label>Name</label>
              <div class="box">Kyle Foster</div>
@@ -62,19 +90,18 @@
 
              <button>Submit</button>
 
-            </div>
+            </div> -->
 
-        </div>
+    </div>
 
-        </center>
 
-     </div>
+    </div>
 
-     </body>
+</body>
 
-    <!--Setup for bottom box-->
-    <footer> 
-            <p class="cpr">Copywright &copy;</p>
-    </footer>
+<!--Setup for bottom box-->
+<footer>
+    <p class="cpr">Copywright &copy;</p>
+</footer>
 
-     </html>
+</html>
